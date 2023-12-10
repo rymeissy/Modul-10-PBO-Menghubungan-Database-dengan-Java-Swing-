@@ -144,7 +144,7 @@ public class FramePelanggan extends javax.swing.JFrame {
         jButton2.setText("Reset");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                ResetActionPerformed(evt);
             }
         });
 
@@ -325,9 +325,9 @@ public class FramePelanggan extends javax.swing.JFrame {
         kosongkan();
     }//GEN-LAST:event_btnSimpanActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void ResetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ResetActionPerformed
         kosongkan();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }//GEN-LAST:event_ResetActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         String keyword = tfKeyword.getText();
