@@ -12,9 +12,9 @@ import com.mysql.cj.jdbc.MysqlDataSource;
 public class Koneksi {
     private final MysqlDataSource dataSource = new MysqlDataSource();
     private final String DB_URL = "jdbc:mysql://localhost:3306/"
-            + "db_pbo?serverTimezone=Asia/Jakarta";
+            + "penjualan?serverTimezone=Asia/Jakarta";
     private final String DB_USERNAME = "root";
-    private final String DB_PASSWORD = "123";
+    private final String DB_PASSWORD = "";
 
    
 
